@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f6f8;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+.contenedor {
+    width: 100%;
+
+    max-width: 500px;
+
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+
+    color: #222;
+}
+
+.instruccion {
+    margin-bottom: 30px;
+
+    color: #555;
+}
+
+.tarjeta {
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+
+    font-weight: bold;
+}
+
+input {
+    padding: 14px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+}
+
+button {
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.03);
+}
+
+#resultado {
+    margin-top: 30px;
+
+    font-size: 25px;
+
+    font-weight: bold;
+}
+
+/* ==========================================
+   TARJETA DEL PERFIL
+   ========================================== */
+
+.tarjeta-perfil {
+    margin-top: 30px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+
+/* ==========================================
+   FIGURA ASIGNADA
+   ========================================== */
+
+.figura-asignada {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+
+.tarjeta-perfil h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+
+.tarjeta-perfil h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2563eb;
+}
+
+
+.tarjeta-perfil p {
+    margin-bottom: 18px;
+    color: #444;
+    line-height: 1.6;
+}
+
+
+.tarjeta-perfil strong {
+    color: #222;
+}
+
+
+.tarjeta-perfil ul {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+
+.tarjeta-perfil li {
+    margin-bottom: 8px;
+    color: #444;
+    line-height: 1.5;
+}
+
+
+.separador {
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
